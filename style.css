@@ -54,6 +54,9 @@ body {
     .main_box {
         margin-left: 330px;
     }
+    .link_here {
+        margin-left: 500px !important;
+    }
 }
 @media(max-width: 1060px) {
     .container {
@@ -65,6 +68,9 @@ body {
     .main_title {
         font-size: 50px;
     }
+    .link_here {
+        margin-left: 400px !important;
+    }
 }
 @media(max-width: 960px) {
     .container {
@@ -73,6 +79,9 @@ body {
     .main_box {
         margin-left: 280px;
     }
+    .link_here {
+        margin-left: 320px !important;
+    }
 }
 @media(max-width: 860px) {
     .container {
@@ -80,6 +89,9 @@ body {
     }
     .main_box {
         margin-left: 250px;
+    }
+    .link_here {
+        margin-left: 220px !important;
     }
 }
 @media(max-width: 760px) {
@@ -99,6 +111,9 @@ body {
         font-size: 40px;
         margin-left: 170px;
     }
+    .link_here {
+        margin-left: 120px !important;
+    }
 }
 @media(max-width: 660px) {
     .container {
@@ -110,6 +125,9 @@ body {
     .main_title {
         font-size: 35px;
         margin-left: 140px;
+    }
+    .link_here {
+        margin-left: 20px !important;
     }
 }
 @media(max-width: 560px) {
@@ -123,6 +141,13 @@ body {
         font-size: 30px;
         margin-left: 120px;
     }
+    .box_here {
+        display: block !important;
+        height: 250px !important;
+    }
+    .link_here {
+        margin-top: -30px !important;
+    }
 }
 @media(max-width: 460px) {
     .container {
@@ -134,6 +159,12 @@ body {
     .main_title {
         font-size: 30px;
         margin-left: 90px;
+    }
+    .link_here {
+        margin-left: 100px !important;
+    }
+    .here_title {
+        text-align: center;
     }
 }
 @media(max-width: 360px) {
@@ -149,6 +180,9 @@ body {
     .main_title {
         font-size: 20px;
         margin-left: 40px !important;
+    }
+    .link_here {
+        margin-left: 50px !important;
     }
 }
 .heading_list {
@@ -179,4 +213,30 @@ body {
     margin-top: 5px;
     color: red;
     font-size: 19px;
+}
+.here {
+    background-color: #CF404D;
+}
+.box_here { 
+    margin-top: 90px;
+    color: white;
+    width: 100%;
+    height: 135px;
+    display: flex;
+}
+.link_here {
+    margin-left: 575px;
+    margin-top: 60px;
+    color: white;
+    padding: 10px 30px;
+    border: 2px solid white;
+    height: 50px;
+    transition: .6s;
+}
+.link_here:hover {
+    background-color: white;
+    color: black;
+}
+.here_title {
+    padding: 60px 30px;
 }
